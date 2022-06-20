@@ -1,0 +1,7 @@
+a, b, c, d = input().split(' ')
+a1 = int(a)
+b1 = int(b)
+c1 = int(c)
+d1 = int(d)
+resultado = ((a1 + c1 +  b1 + d1)-3)
+print(resultado)
