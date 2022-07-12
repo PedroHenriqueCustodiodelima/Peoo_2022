@@ -1,13 +1,10 @@
 using System;
 public class MainClass {
-  public static void Main(string[] args) {
-    int a, b, c, d, menor = 0, maior = 0;
-    Console.WriteLine("Digite quatro valores inteiros"); 
-    a = int.Parse(Console.ReadLine());
-    b = int.Parse(Console.ReadLine());
-    c = int.Parse(Console.ReadLine());
-    d = int.Parse(Console.ReadLine());
-    menor = a;
+  public static void Main(string[] args) { 
+    a = double.Parse(Console.ReadLine());
+    b = double.Parse(Console.ReadLine());
+    c = double.Parse(Console.ReadLine());
+    d = double.Parse(Console.ReadLine());
     maior = a;
     if (b > maior)
     {
