@@ -5,11 +5,11 @@ class Program{
     int q = 0;
     int t = int.Parse(Console.ReadLine());
     for (int i = 0; i < t; i++){
-      string[] inputValue = Console.ReadLine().Split();
-      int pa = int.Parse(inputValue[0]);
-      int pb = int.Parse(inputValue[1]);
-      double g1 = double.Parse(inputValue[2]);
-      double g2 = double.Parse(inputValue[3]);
+      string[] V = Console.ReadLine().Split();
+      int pa = int.Parse(V[0]);
+      int pb = int.Parse(V[1]);
+      double g1 = double.Parse(V[2]);
+      double g2 = double.Parse(V[3]);
       int d = pa;
       int e = pb;
       int n = 0;
