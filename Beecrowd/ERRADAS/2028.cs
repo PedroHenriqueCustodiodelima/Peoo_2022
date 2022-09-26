@@ -8,7 +8,7 @@ class Program{
       if (string.IsNullOrEmpty(input)){
         break;
       }
-      int valor = int.Parse(input);
+      long valor = long.Parse(input);
       if (valor == 0){
         Console.WriteLine($"Caso {caso}: 1 numero");
         Console.Write("0 ");
